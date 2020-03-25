@@ -1,0 +1,28 @@
+{
+  "name": "Covdi19-policy",
+  "version": "0.0.1",
+  "description": "Covid-19 Provincial Policy",
+  "main": "index.html",
+  "scripts": {
+    "start": "ws --directory src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GillianPetit/covid19Policy.git"
+  },
+  "author": "Gillian Petit <gillian.schafer@ucalgary.ca>",
+  "private": true,
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GillianPetit/covid19Policy/issues"
+  },
+  "homepage": "https://github.com/GillianPetit/covid19Policy#readme",
+  "devDependencies": {
+    "local-web-server": "^4.0.0",
+    "shx": "^0.3.2"
+  },
+  "dependencies": {
+    "surge": "^0.21.3"
+  }
+}
