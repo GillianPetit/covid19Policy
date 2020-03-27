@@ -2,7 +2,7 @@ let body = d3.select("#body")
 
 //Set dimensions and margins of graph
 	let margin = {top: 20, right: 20, bottom: 30, left: 50}
-	let bodyHeight = 500 - margin.top - margin.bottom
+	let bodyHeight = 600 - margin.top - margin.bottom
 	let bodyWidth = 960 - margin.left - margin.right
 	let textHeight = bodyHeight + 50
 
@@ -60,52 +60,44 @@ function showData(data) {
 	//Add the AB path
 	body.append("path")
 		.datum(data)
-		.attr("transform" , "translate(50, 0)")
+		.attr("transform" , "translate(100, 0)")
 		.attr("d" , ABvalueLine)
 		.attr("class" , "ABline")
 	
 	//Add the BC path
 	body.append("path")
 		.datum(data)
-		.attr("transform" , "translate(50, 0)")
+		.attr("transform" , "translate(100, 0)")
 		.attr("d" , BCvalueLine)
 		.attr("class" , "BCline")
 	
 	//Add the y axis
 	body.append("g")
-		.attr("transform" , "translate(50, 0)")
+		.attr("transform" , "translate(100, 0)")
 		.call(d3.axisLeft(yscale))
 
 	//Add the x axis
 	body.append("g")
-		.attr("transform" , "translate(50, " + bodyHeight + ")" )
+		.attr("transform" , "translate(100, " + bodyHeight + ")" )
 		.call(d3.axisBottom(xscale))
 	
 	//Add x axis label
 	body.append("g")
 		.append("text")
 		.style("text-anchor" , "middle")
-		.attr("transform" , "translate(200, " + textHeight  + ")" )
+		.attr("transform" , "translate(500, " + textHeight  + ")" )
 		.text("Days Since First Confirmed Case")
 
 
+	//Add y axis label
+	body.append("g")
+		.append("text")
+		.text("Cumulative Cases")
+		.attr('transform', (d)=>{
+       			 return 'translate( 50 , 300),'+ 'rotate(-90)';})		
 
-//create mouseover functions
-	function infoBox(obj, d) {
-		var coord = d3.mouse(obj);
-		var infobox = d3.select(".infobox");
 
- 		// now we just position the infobox roughly where our mouse is
- 		infobox.style("left", (coord[0] + 100) + "px" );
- 		infobox.style("top", (coord[1] - 175) + "px");
-		 $(".infobox").html(d);
-		 $(".infobox").show();
-		 }
- 
-	function hideData() {
-		 $(".infobox").hide();
-	 }
-
+	//Add dots for each data point for AB
 	body.append("g").selectAll("dot")
 		.data(data)
 		.enter()
@@ -116,11 +108,9 @@ function showData(data) {
 			else { return 5}} )
 		.attr("cx" , d => xscale(d.days))
 		.attr("cy" , d => yscale(d.ABcumulativeCases) )
-		.attr("transform" , "translate(50, 0)")
-		.on("mouseover", function(d) { infoBox(this, d.ABcumulativeCases)})
-		.on("mouseout" , function(d) { hideData()})
+		.attr("transform" , "translate(100, 0)")
 
-
+	//Add dots for each data point for BC
 	body.append("g").selectAll("dot")
 		.data(data)
 		.enter()
@@ -131,13 +121,10 @@ function showData(data) {
 			else { return 5}} )
 		.attr("cx" , d => xscale(d.days))
 		.attr("cy" , d => yscale(d.BCcumulativeCases) )
-		.attr("transform" , "translate(50, 0)")
-		.on("mouseover", function(d) { infoBox(this, d.ABcumulativeCases)})
-		.on("mouseout" , function(d) { hideData()})
+		.attr("transform" , "translate(100, 0)")
 
 
 
-	body.append("<div class='infobox' style='display:none;'>Test</div>");
  
 
 
