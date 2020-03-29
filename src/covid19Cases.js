@@ -1,8 +1,8 @@
 let body = d3.select("#body")
 
 //Set dimensions and margins of graph
-	let margin = {top: 20, right: 20, bottom: 30, left: 50}
-	let bodyHeight = 600 - margin.top - margin.bottom
+	let margin = {top: 30, right: 40, bottom: 30, left: 50}
+	let bodyHeight = 550 - margin.top - margin.bottom
 	let bodyWidth = 960 - margin.left - margin.right
 	let textHeight = bodyHeight + 50
 
@@ -35,7 +35,7 @@ function showData(data) {
 //set ranges
 	let yscale = d3.scaleLinear()
 		.range([bodyHeight, 0])
-		.domain([0, maxValue])
+		.domain([0, maxValue+20])
 
 	let xscale = d3.scaleLinear()
 		.domain(d3.extent(data, d => d.days))
@@ -123,9 +123,19 @@ function showData(data) {
 		.attr("cy" , d => yscale(d.BCcumulativeCases) )
 		.attr("transform" , "translate(100, 0)")
 
+	//Add label to BC line
+	body.append("text")
+		.attr("transform", "translate(" + (bodyWidth+60) + "," + yscale(data[data.length-1].BCcumulativeCases) + ")")
+		.attr("dy", ".35em")
+		.attr("text-anchor", "start")
+		.style("fill", "red")
+		.text("BC")
 
-
- 
-
+	//Add label to AB line
+		body.append("text")
+		.attr("transform", "translate(" + xscale(data[0].ABcumulativeCases + 27)   + "," + yscale(data[0].ABcumulativeCases + 420) + ")")
+		.attr("text-anchor", "start")
+		.style("fill", "steelblue")
+		.text("AB")
 
 }
