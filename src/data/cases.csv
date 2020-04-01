@@ -1,59 +1,69 @@
-﻿Days,ABdate,ABCumulativeCases,ABNewCases,ABPolicy1,ABPolicy2,ABPolicy3,BCdate,BCCumulativeCases,BCNewCases
-1,2020-03-05,1,1,,,,2020-01-28,1,1
-2,2020-03-06,1,0,"Self-isolation recommended, all international travel",,,,,
-3,2020-03-07,2,1,,,,,,
-4,2020-03-08,5,3,,,,,,
-5,2020-03-09,6,1,,,,,,
-6,2020-03-10,12,6,,,,,,
-7,2020-03-11,19,7,,,,,,
-8,2020-03-12,21,2,Restrict gatherings to 250 people or less. Excludes places of worship.,,,2020-02-04,2,1
-9,2020-03-13,31,10,,,,,,
-10,2020-03-14,50,19,,,,2020-02-06,4,2
-11,2020-03-15,60,10,K-12 in-class instruction suspended,Restrict gatherings to 250 people or less,,,,
-12,2020-03-16,84,24,,,,,,
-13,2020-03-17,99,15,Prov. Public Emergency Declared,Restrict gatherings to 50 people or less,Bars/pubs ordered closed. Restaurants remain open with restrictions.,,,
-14,2020-03-18,127,28,Enhanced job protection legislation,"Emergency support package announced - individuals, workers",,,,
-15,2020-03-19,157,30,First Death Reported,,,,,
-16,2020-03-20,203,46,"Additions to emergency support package announced - oil & gas, resources",,,,,
-17,2020-03-21,242,39,,,,,,
-18,2020-03-22,284,42,,,,2020-02-14,5,1
-19,2020-03-23,342,58,"Emergency support package announced - property taxes, WCB deferral",,,,,
-20,2020-03-24,405,63,,,,,,
-21,2020-03-25,418,13,Legal enforcment ,,,,,
-22,,,,,,,,,
-23,,,,,,,,,
-24,,,,,,,2020-02-20,6,1
-25,,,,,,,,,
-26,,,,,,,,,
-27,,,,,,,,,
-28,,,,,,,2020-02-24,7,1
-29,,,,,,,,,
-30,,,,,,,,,
-31,,,,,,,,,
-32,,,,,,,,,
-33,,,,,,,2020-02-29,8,1
-34,,,,,,,,,
-35,,,,,,,,,
-36,,,,,,,2020-03-03,12,4
-37,,,,,,,2020-03-04,13,1
-38,,,,,,,,,
-39,,,,,,,2020-03-06,21,8
-40,,,,,,,2020-03-07,27,6
-41,,,,,,,,,
-42,,,,,,,2020-03-09,32,5
-43,,,,,,,2020-03-10,39,7
-44,,,,,,,2020-03-11,46,7
-45,,,,,,,2020-03-12,53,7
-46,,,,,,,2020-03-13,64,11
-47,,,,,,,,,
-48,,,,,,,,,
-49,,,,,,,2020-03-16,103,39
-50,,,,,,,2020-03-17,186,83
-51,,,,,,,2020-03-18,231,45
-52,,,,,,,2020-03-19,271,40
-53,,,,,,,2020-03-20,348,77
-54,,,,,,,2020-03-21,424,76
-55,,,,,,,2020-03-22,472,48
-56,,,,,,,2020-03-23,539,67
-57,,,,,,,2020-03-24,617,78
-58,,,,,,,2020-03-25,659,42
+﻿Days,ABdate,ABCumulativeCases,ABNewCases,ABPolicy1,ABPolicy2,ABPolicy3,BCdate,BCCumulativeCases,BCNewCases,ONdate,ONCumulativeCases,ONNewCases,SASKdate,SASKCumulativeCases,SASKNewCases,QUEdate,QUECumulativeCases,QUENewCases
+1,"March 5, 2020",1,1,,,,"January 28, 2020",1,1,"January 25, 2020",1,1,"March 12, 2020",1,1,"February 28, 2020",1,0
+2,"March 6, 2020",1,0,"Self-isolation recommended, all international travel",,,"January 29, 2020",1,0,"January 26, 2020",1,0,"March 13, 2020",2,1,"February 29, 2020",1,0
+3,"March 7, 2020",2,1,,,,"January 30, 2020",1,0,"January 27, 2020",2,1,"March 14, 2020",3,1,"March 1, 2020",1,0
+4,"March 8, 2020",5,3,,,,"January 31, 2020",1,0,"January 28, 2020",2,0,"March 15, 2020",6,3,"March 2, 2020",1,0
+5,"March 9, 2020",6,1,,,,"February 1, 2020",1,0,"January 29, 2020",2,0,"March 16, 2020",7,1,"March 3, 2020",1,0
+6,"March 10, 2020",12,6,,,,"February 2, 2020",1,0,"January 30, 2020",2,0,"March 17, 2020",8,1,"March 4, 2020",1,0
+7,"March 11, 2020",19,7,,,,"February 3, 2020",1,0,"January 31, 2020",3,1,"March 18, 2020",16,8,"March 5, 2020",2,1
+8,"March 12, 2020",21,2,Restrict gatherings to 250 people or less. Excludes places of worship.,,,"February 4, 2020",2,1,"February 1, 2020",3,0,"March 19, 2020",20,4,"March 6, 2020",3,1
+9,"March 13, 2020",31,10,,,,"February 5, 2020",,,"February 2, 2020",3,0,"March 20, 2020",26,6,"March 7, 2020",3,0
+10,"March 14, 2020",50,19,,,,"February 6, 2020",4,2,"February 3, 2020",3,0,"March 21, 2020",44,18,"March 8, 2020",4,1
+11,"March 15, 2020",60,10,K-12 in-class instruction suspended,Restrict gatherings to 250 people or less,,"February 7, 2020",4,0,"February 4, 2020",3,0,"March 22, 2020",52,8,"March 9, 2020",4,0
+12,"March 16, 2020",84,24,,,,"February 8, 2020",4,0,"February 5, 2020",3,0,"March 23, 2020",66,14,"March 10, 2020",7,3
+13,"March 17, 2020",99,15,Prov. Public Emergency Declared,Restrict gatherings to 50 people or less,Bars/pubs ordered closed. Restaurants remain open with restrictions.,"February 9, 2020",4,0,"February 6, 2020",3,0,"March 24, 2020",72,6,"March 11, 2020",8,1
+14,"March 18, 2020",127,28,Enhanced job protection legislation,"Emergency support package announced - individuals, workers",,"February 10, 2020",4,0,"February 7, 2020",3,0,"March 25, 2020",86,14,"March 12, 2020",17,9
+15,"March 19, 2020",157,30,First Death Reported,,,"February 11, 2020",4,0,"February 8, 2020",3,0,"March 26, 2020",95,9,"March 13, 2020",17,0
+16,"March 20, 2020",203,46,"Additions to emergency support package announced - oil & gas, resources",,,"February 12, 2020",4,0,"February 9, 2020",3,0,"March 27, 2020",104,9,"March 14, 2020",24,7
+17,"March 21, 2020",242,39,,,,"February 13, 2020",4,0,"February 10, 2020",3,0,"March 28, 2020",134,30,"March 15, 2020",39,15
+18,"March 22, 2020",284,42,,,,"February 14, 2020",5,1,"February 11, 2020",3,0,"March 29, 2020",156,22,"March 16, 2020",50,11
+19,"March 23, 2020",342,58,"Emergency support package announced - property taxes, WCB deferral",,,"February 15, 2020",5,0,"February 12, 2020",3,0,"March 30, 2020",176,20,"March 17, 2020",74,24
+20,"March 24, 2020",405,63,,,,"February 16, 2020",5,0,"February 13, 2020",3,0,"March 31, 2020",184,8,"March 18, 2020",94,20
+21,"March 25, 2020",418,13,Legal enforcment ,,,"February 17, 2020",5,0,"February 14, 2020",3,0,,,,"March 19, 2020",121,27
+22,"March 26, 2020",525,52,,,,"February 18, 2020",5,0,"February 15, 2020",3,0,,,,"March 20, 2020",139,18
+23,"March 27, 2020",610,85,,,,"February 19, 2020",5,0,"February 16, 2020",3,0,,,,"March 21, 2020",181,42
+24,"March 28, 2020",664,54,,,,"February 20, 2020",6,1,"February 17, 2020",3,0,,,,"March 22, 2020",219,38
+25,"March 29, 2020",688,24,,,,"February 21, 2020",6,0,"February 18, 2020",3,0,,,,"March 23, 2020",628,409
+26,"March 30, 2020",735,47,,,,"February 22, 2020",6,0,"February 19, 2020",3,0,,,,"March 24, 2020",1040,412
+27,"March 31, 2020",754,19,,,,"February 23, 2020",6,0,"February 20, 2020",3,0,,,,"March 25, 2020",1338,298
+28,,,,,,,"February 24, 2020",7,1,"February 21, 2020",3,0,,,,"March 26, 2020",1629,291
+29,,,,,,,"February 25, 2020",7,0,"February 22, 2020",3,0,,,,"March 27, 2020",2021,392
+30,,,,,,,"February 26, 2020",7,0,"February 23, 2020",4,1,,,,"March 28, 2020",2498,477
+31,,,,,,,"February 27, 2020",7,0,"February 24, 2020",4,0,,,,"March 29, 2020",2840,342
+32,,,,,,,"February 28, 2020",7,0,"February 25, 2020",4,0,,,,"March 30, 2020",3430,590
+33,,,,,,,"February 29, 2020",8,1,"February 26, 2020",5,1,,,,"March 31, 2020",4162,732
+34,,,,,,,"March 1, 2020",8,0,"February 27, 2020",6,1,,,,,,
+35,,,,,,,"March 2, 2020",8,0,"February 28, 2020",8,2,,,,,,
+36,,,,,,,"March 3, 2020",12,4,"February 29, 2020",11,3,,,,,,
+37,,,,,,,"March 4, 2020",13,1,"March 1, 2020",15,4,,,,,,
+38,,,,,,,"March 5, 2020",,,"March 2, 2020",18,3,,,,,,
+39,,,,,,,"March 6, 2020",21,8,"March 3, 2020",20,2,,,,,,
+40,,,,,,,"March 7, 2020",27,6,"March 4, 2020",20,0,,,,,,
+41,,,,,,,"March 8, 2020",,,"March 5, 2020",23,3,,,,,,
+42,,,,,,,"March 9, 2020",32,5,"March 6, 2020",28,5,,,,,,
+43,,,,,,,"March 10, 2020",39,7,"March 7, 2020",28,0,,,,,,
+44,,,,,,,"March 11, 2020",46,7,"March 8, 2020",32,4,,,,,,
+45,,,,,,,"March 12, 2020",53,7,"March 9, 2020",35,3,,,,,,
+46,,,,,,,"March 13, 2020",64,11,"March 10, 2020",36,1,,,,,,
+47,,,,,,,"March 14, 2020",,,"March 11, 2020",42,6,,,,,,
+48,,,,,,,"March 15, 2020",,,"March 12, 2020",59,17,,,,,,
+49,,,,,,,"March 16, 2020",103,39,"March 13, 2020",79,20,,,,,,
+50,,,,,,,"March 17, 2020",186,83,"March 14, 2020",103,24,,,,,,
+51,,,,,,,"March 18, 2020",231,45,"March 15, 2020",146,43,,,,,,
+52,,,,,,,"March 19, 2020",271,40,"March 16, 2020",177,31,,,,,,
+53,,,,,,,"March 20, 2020",348,77,"March 17, 2020",189,12,,,,,,
+54,,,,,,,"March 21, 2020",424,76,"March 18, 2020",214,25,,,,,,
+55,,,,,,,"March 22, 2020",472,48,"March 19, 2020",258,44,,,,,,
+56,,,,,,,"March 23, 2020",539,67,"March 20, 2020",318,60,,,,,,
+57,,,,,,,"March 24, 2020",617,78,"March 21, 2020",377,59,,,,,,
+58,,,,,,,"March 25, 2020",659,42,"March 22, 2020",425,48,,,,,,
+59,,,,,,,"March 26, 2020",725,66,"March 23, 2020",503,78,,,,,,
+60,,,,,,,"March 27, 2020",792,67,"March 24, 2020",588,85,,,,,,
+61,,,,,,,"March 28, 2020",884,92,"March 25, 2020",688,100,,,,,,
+62,,,,,,,"March 29, 2020",900,16,"March 26, 2020",858,170,,,,,,
+63,,,,,,,"March 30, 2020",970,70,"March 27, 2020",993,135,,,,,,
+64,,,,,,,"March 31, 2020",1013,43,"March 28, 2020",1144,151,,,,,,
+65,,,,,,,,,,"March 29, 2020",1326,182,,,,,,
+66,,,,,,,,,,"March 30, 2020",1706,380,,,,,,
+67,,,,,,,,,,"March 31, 2020",1966,260,,,,,,
+68,,,,,,,,,,,,,,,,,,

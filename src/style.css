@@ -11,16 +11,37 @@
 
 }
 
-tr{
-	background-color: #FF8448;
+.ONline{
+	fill: none;
+	stroke: purple;
+	stroke-width: 2px;
 }
 
-td{
-	background-color: #0099FF;
+.SASKline{
+	fill: none;
+	stroke: olivedrab;
+	stroke-width: 2px;
 }
+
+.QUEline{
+	fill: none;
+	stroke: chocolate;
+	stroke-width: 2px;
+}
+
+
+tr{
+	background-color: black;
+}
+
 
 table{
 	color: #FFFFFF;
+}
+
+.jobProtect{
+	max-height: 300px;
+	overflow: scroll;
 }
 
 

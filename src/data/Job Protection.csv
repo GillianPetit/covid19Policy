@@ -17,3 +17,10 @@ MAN,Existing,Long-term leave for serious illness or injury,17 weeks,Unpaid,Yes,E
 QUE,Existing,Leave,26 weeks,Unpaid,No,"Sickness, accident, organ or tissue donation, domestic violence or sexual violence of which he or she was a victim",3 months,No,No,s. 79.1 LSA
 QUE,Existing,Family Leave,10 days,Unpaid,Yes if for state of health,"to fulfil obligations relating to the care, health or education of the employee’s child or the child of the employee’s spouse, or because of the state of health of a relative or a person for whom the employee acts as a caregiver",No requirement,Potentially,Yes,s. 79.7 LSA
 QUE,Existing,Serious Illness,"36 weeks if child, 16 weeks if adult family member",Unpaid,Yes,A relative or a person for whom the employee acts as a caregiver has a serious illness or a serious accident.,No requirement,Yes,No,s. 79.8 LAS
+PEI,Existing,Sick Leave,3 days,Unpaid,Yes,Unable to work due to illness or injury,3 months,No,No,s. 22.2 ESC
+PEI,Existing,Sick Leave,1 day,Paid,Yes,Unable to work due to illness or injury,5 years,No,No,s. 22.2 ESC
+PEI,Existing,Family Leave,3 days,Unpaid,No,To meet responsibilities related to the health or care of a person who is a member of the immediate family or extended family of the employee,6 months,Potentially,Yes,s. 22.1 ESC
+PEI,Existing,Critically Ill Child,37 weeks,Unpaid,Yes,For the purpose of providing care and support to the critically ill child,3 months,Yes,No,s. 22.11 ESC
+NB,Existing,Sick Leave,5 days,Unpaid,Yes,Incapable of working due to illness or injury,90 days,No,No,s. 44.021 ESA
+NB,Existing,Family Leave,3 days,Unpaid,No,"To meet responsibilities related to the health, care, or education of a person in a close family relationship with the employee",No requirement,Potentially,Yes,s. 44.022 ESA
+NB,Existing,Critically Ill ,"37 weeks if child, 16 weeks if adult family member",Unpaid,Yes,To provide care or support to a critically ill child or adult family member,No requirement,Yes,No,s. 44.025 ESA
