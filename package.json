@@ -5,6 +5,8 @@
   "main": "index.html",
   "scripts": {
     "start": "ws --directory src",
+    "deploy": "npm run deploy:surge.sh",
+    "deploy:surge.sh": "shx mkdir -p dist && shx cp -R \"src/*\" dist/ && shx cp config/surge.sh/200.html dist/ && surge dist/ covid19-prov-policy.surge.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,9 +22,8 @@
   "homepage": "https://github.com/GillianPetit/covid19Policy#readme",
   "devDependencies": {
     "local-web-server": "^4.0.0",
-    "shx": "^0.3.2"
-  },
-  "dependencies": {
+    "shx": "^0.3.2",
     "surge": "^0.21.3"
-  }
+  },
+  "dependencies": {}
 }

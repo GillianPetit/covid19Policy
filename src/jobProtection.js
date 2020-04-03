@@ -1,10 +1,14 @@
 
 
+
 d3.csv("data/Job Protection.csv").then(showData2)
 
 function showData2(data) {
 
-		console.log(data)
+
+
+	console.log(data)
+
 	let table = d3.select("#jobProtectionTable").append("table")
 
 		
@@ -17,10 +21,7 @@ function showData2(data) {
 		.text( function(d) { return d })
 
 
-	let tableBody = table.append("tbody")
-		.attr("max-height" , "400px")
-		.style("overflow" , "scroll")
-		
+	let tableBody = table.append("tbody")		
 	let myArray = []
 
 	data.forEach(function(d, i){
@@ -44,8 +45,6 @@ function showData2(data) {
 		.domain(["BC" , "AB", "ON", "SASK", "QUE" , "NB" , "PEI" , "NS" , "MAN"])
 		.range(["red" , "steelblue" , "purple" , "olivedrab", "chocolate", "darkkhaki" , "teal", "orange" , "darkblue"])
 
-	let colors = ["red" , "steelblue" , "purple" , "olivedrab", "chocolate"]
-
 	let rows = tableBody.selectAll("tr")
 		.data(myArray)
 		.enter()
@@ -59,5 +58,13 @@ function showData2(data) {
 		.enter()
 		.append("td")
 		.text(function(d) { return d })
+
+
+
+
+
+
+
+
 
 }	
